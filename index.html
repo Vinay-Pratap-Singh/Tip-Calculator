@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/6ebb309f55.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="billArea">
+            <label for="bill">Bill</label> 
+            <input type="text" name="bill" id="billText" placeholder="Ex: 100"> 
+        </div> 
+        <div class="tipArea">
+            <label for="tip">Tip</label> 
+            <input type="text" name="tip" id="tipText" placeholder="Ex: 10">
+        </div>
+        <div class="calculation">
+            <div class="people">
+                <label for="peopleCounter">person</label>
+                <div class="peopleCounter">
+                    <button id="plusBtn">+</button>
+                    <p id="totalPeople">1</p>
+                    <button id="minusBtn">-</button>
+                </div>
+            </div>
+            <div class="person">
+                <label for="total">total per person</label>
+                <input type="text" name="total" id="totalAmount" placeholder="110">
+            </div>
+        </div>
+
+        <div class="social">
+            <a href="https://github.com/Vinay-Pratap-Singh" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://twitter.com/harvi2001" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/vinay-pratap-singh-4b265a212/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </header>    
+</body>
+<script src="./js/script.js" defer></script>
+</html>

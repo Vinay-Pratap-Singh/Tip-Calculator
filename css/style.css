@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+header{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+    padding: 30px;
+}
+
+.billArea, .tipArea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tipArea, .billArea, .calculation, .person{
+    margin: 25px 0;
+}
+
+label{
+    margin: 10px 0;
+}
+
+.calculation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.people{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.peopleCounter{
+    width: 100%;
+    display: flex;
+    justify-content: left; 
+    align-items: center;
+}
+
+.peopleCounter button{
+    font-size: 1rem;
+    padding: 2px 8px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#totalPeople{
+    margin: 0 10px;
+}
+
+.person{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+input{
+    padding: 5px;
+}
+
+.social{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 1.5rem 0;
+}
+
+.fa-brands{
+    color: cyan;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+        width: 100vw;
+    }
+}
